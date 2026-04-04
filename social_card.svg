@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="1200" fill="#001F3F"/>
+
+  <!-- Subtle grid pattern -->
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="800" x2="1200" y2="800" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="1200" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="1200" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Emerald accent bar (top) -->
+  <rect x="0" y="0" width="1200" height="8" fill="#50C878"/>
+
+  <!-- Icon mark — centred slightly above middle -->
+  <g transform="translate(448, 360)">
+    <rect x="0" y="0"   width="304" height="56" rx="8" fill="#50C878"/>
+    <rect x="0" y="80"  width="243" height="56" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="0" y="160" width="182" height="56" rx="8" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="0" y="240" width="122" height="56" rx="8" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text
+    x="600" y="800"
+    font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif"
+    font-size="92"
+    font-weight="700"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="-2">RoundupPost</text>
+
+  <!-- Tagline -->
+  <text
+    x="600" y="880"
+    font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif"
+    font-size="34"
+    font-weight="400"
+    fill="#50C878"
+    text-anchor="middle"
+    letter-spacing="4">ROUNDUP POSTS THAT RANK AND CONVERT</text>
+
+  <!-- Bottom URL -->
+  <text
+    x="600" y="1140"
+    font-family="'JetBrains Mono', 'Courier New', monospace"
+    font-size="26"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    opacity="0.4"
+    letter-spacing="3">WWW.ROUNDUPPOST.COM</text>
+</svg>
