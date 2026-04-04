@@ -8,8 +8,6 @@
   <line x1="400" y1="0" x2="400" y2="1200" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
   <line x1="800" y1="0" x2="800" y2="1200" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
 
-  <!-- Emerald accent bar (top) -->
-  <rect x="0" y="0" width="1200" height="8" fill="#50C878"/>
 
   <!-- Icon mark — centred slightly above middle -->
   <g transform="translate(448, 360)">
