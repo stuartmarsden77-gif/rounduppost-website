@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="1600" height="400">
+  <rect x="0" y="0" width="800" height="200" fill="#001F3F"/>
+  <!-- Icon -->
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="120" height="24" fill="#50C878" rx="3" />
+    <rect x="0" y="34" width="96" height="24" fill="#FFFFFF" rx="3" />
+    <rect x="0" y="68" width="72" height="24" fill="#FFFFFF" rx="3" />
+    <rect x="0" y="102" width="48" height="24" fill="#FFFFFF" rx="3" />
+  </g>
+  <!-- Text -->
+  <text x="210" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="85" font-weight="700" fill="#FFFFFF" letter-spacing="-2">RoundupPost</text>
+</svg>
