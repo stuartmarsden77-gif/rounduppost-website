@@ -28,14 +28,23 @@
   @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
   .float { animation: float 3s ease-in-out infinite; }
 </style>
+<!-- TopNavBar -->
+<nav class="bg-[#001F3F] docked full-width top-0 z-50 shadow-[0_0_24px_rgba(0,0,0,0.06)] backdrop-blur-md flex justify-between items-center w-full px-8 py-3 max-w-full sticky">
+<div class="flex items-center gap-2 h-14">
+<a href="/" class="h-12 w-auto flex items-center">
+            <img src="./rounduppost_primary_logo_dark.svg" alt="RoundupPost — Roundup Post Writing Service" class="h-12 w-auto" width="200" height="48">
+</a>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Inter'] font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/">Home</a>
+<a class="font-['Inter'] font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#packages">Packages</a>
+<a class="font-['Inter'] font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#benefits">Benefits</a>
+<a class="font-['Inter'] font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#blog">Blog</a>
+</div>
+<a href="/contact.html" class="bg-emerald-custom text-[#001F3F] px-6 py-2.5 font-headline font-bold uppercase text-xs tracking-tighter hover:bg-[#FF4136] transition-colors duration-300 shadow-md">Get Started</a>
+</nav>
 </head>
 <body class="bg-[#001F3F] min-h-screen flex flex-col font-headline">
-
-<nav class="flex justify-between items-center w-full px-8 py-4 border-b border-white/10">
-  <a href="/" class="h-10 flex items-center">
-    <img src="./rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-10 w-auto" width="160" height="40">
-  </a>
-</nav>
 
 <main class="flex-grow flex flex-col items-center justify-center text-center px-8 py-24">
   <div class="float mb-10 text-emerald-custom">
