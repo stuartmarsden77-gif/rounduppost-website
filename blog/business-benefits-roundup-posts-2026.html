@@ -170,21 +170,17 @@
 <!-- TopNavBar -->
 <header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-[#001F3F] shadow-[0px_0px_24px_0px_rgba(0,0,0,0.06)]">
     <div class="flex items-center gap-8">
-        <a href="/" class="h-10 flex items-center">
-            <img src="/rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-10 w-auto" width="160" height="40">
+        <a href="/" class="h-12 flex items-center">
+            <img src="/rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-12 w-auto" width="200" height="48">
         </a>
-        <nav class="hidden md:flex items-center gap-6">
-            <a class="text-white border-b-2 border-[#FF851B] pb-1 font-headline font-bold tracking-tight" href="/#blog">Analysis</a>
-            <a class="text-slate-300 hover:text-white transition-colors font-headline font-bold tracking-tight" href="/#benefits">Benefits</a>
-            <a class="text-slate-300 hover:text-white transition-colors font-headline font-bold tracking-tight" href="/#packages">Packages</a>
-        </nav>
+        <div class="hidden md:flex items-center gap-8">
+            <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#packages">Packages</a>
+            <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#benefits">Benefits</a>
+            <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#blog">Blog</a>
+        </div>
     </div>
     <div class="flex items-center gap-4">
-        <div class="hidden md:flex items-center bg-white/10 px-3 py-1">
-            <span class="material-symbols-outlined text-slate-300 text-sm">search</span>
-            <input class="bg-transparent border-none text-xs text-white placeholder-slate-400 focus:ring-0 w-32 font-mono" placeholder="Search Index..." type="text"/>
-        </div>
-        <a href="/contact.html" class="bg-[#FF851B] text-white px-5 py-2 font-headline font-bold text-xs uppercase tracking-widest hover:bg-emerald-accent transition-all duration-200">Contact</a>
+        <a href="/contact.html" class="bg-emerald-custom text-[#001F3F] px-6 py-2.5 font-headline font-bold uppercase text-xs tracking-tighter hover:bg-brand-red transition-colors duration-300">Get Started</a>
     </div>
 </header>
 
@@ -195,12 +191,10 @@
             <!-- Author & Metadata -->
             <div class="space-y-6">
                 <div class="flex items-center gap-4 group">
-                    <div class="w-14 h-14 bg-primary-container flex items-center justify-center border-2 border-[#001F3F]">
-                        <span class="material-symbols-outlined text-white text-3xl">robot_2</span>
-                    </div>
+                    <img class="w-14 h-14 grayscale brightness-90 border-2 border-[#001F3F] rounded-full object-cover" src="/assets/home-avatar.avif" alt="Stuart Marsden">
                     <div>
-                        <p class="font-mono text-[10px] text-slate-500 uppercase tracking-widest">Lead Analyst</p>
-                        <p class="font-headline font-bold text-on-surface">The RoundupPost Team</p>
+                        <p class="font-mono text-[10px] text-slate-500 uppercase tracking-widest">Founder</p>
+                        <p class="font-headline font-bold text-on-surface">Stuart Marsden</p>
                     </div>
                 </div>
                 <div class="border-l-2 border-slate-200 pl-4 py-1">
@@ -246,6 +240,9 @@
             <h1 class="text-4xl md:text-6xl font-headline font-black tracking-tighter text-[#001F3F] leading-tight mb-8">
                 Business Benefits of Roundup Posts in 2026: Traffic Value, AI Citations, Brand Visibility & More
             </h1>
+            <div class="mb-12 overflow-hidden shadow-[8px_8px_0px_0px_#edf4ff] border border-[#001F3F]/10">
+                <img src="/assets/traffic-value.png" alt="Featured Image: Traffic Value Visualization" class="w-full h-auto">
+            </div>
             <p class="text-xl text-slate-600 font-body leading-relaxed max-w-3xl border-l-4 border-slate-200 pl-6 italic">
                 A roundup post is one of the few content formats that consistently delivers across SEO, traffic growth, and revenue impact.
             </p>
@@ -387,26 +384,17 @@
     </article>
 </main>
 
-<footer class="bg-[#001F3F] w-full py-16 px-6 border-t border-white/5">
-    <div class="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-white">
-        <div class="md:col-span-1 space-y-6">
-            <img src="/rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-10 w-auto" width="160" height="40">
-            <p class="text-slate-400 font-mono text-[10px] uppercase leading-relaxed tracking-widest">© 2026 ROUNDUPPOST CONTENT SYSTEMS. ALL RIGHTS RESERVED.</p>
+<footer class="bg-[#001F3F] text-white pt-24 pb-12 px-8 md:px-12 w-full">
+    <div class="max-w-7xl mx-auto text-center">
+        <div class="h-16 flex items-center justify-center mb-10">
+            <img src="/rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-12 w-auto" width="200" height="48">
         </div>
-        <div class="space-y-6">
-            <h5 class="text-white font-headline font-bold uppercase tracking-widest text-xs">Resources</h5>
-            <nav class="flex flex-col gap-4 font-mono text-[10px] uppercase tracking-widest text-slate-400">
-                <a class="hover:text-emerald-accent transition-colors" href="/#blog">Blog</a>
-                <a class="hover:text-emerald-accent transition-colors" href="/#benefits">Benefits</a>
-                <a class="hover:text-emerald-accent transition-colors" href="/#packages">Packages</a>
-            </nav>
-        </div>
-        <div class="space-y-6">
-            <h5 class="text-white font-headline font-bold uppercase tracking-widest text-xs">Company</h5>
-            <nav class="flex flex-col gap-4 font-mono text-[10px] uppercase tracking-widest text-slate-400">
-                <a class="hover:text-emerald-accent transition-colors" href="/contact.html">Contact</a>
-                <a class="hover:text-emerald-accent transition-colors" href="#">Privacy</a>
-            </nav>
+        <p class="font-data text-[12px] tracking-[0.25em] uppercase text-white/30 mb-8">© 2026 ROUNDUPPOST CONTENT SYSTEMS. ALL RIGHTS RESERVED.</p>
+        <div class="flex justify-center gap-8 font-data text-[10px] uppercase tracking-widest text-white/40">
+            <a href="/" class="hover:text-emerald-custom transition-colors">Home</a>
+            <a href="/#benefits" class="hover:text-emerald-custom transition-colors">Benefits</a>
+            <a href="/#packages" class="hover:text-emerald-custom transition-colors">Packages</a>
+            <a href="/#blog" class="hover:text-emerald-custom transition-colors font-bold text-emerald-custom">Blog</a>
         </div>
     </div>
 </footer>
