@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact | RoundupPost — Roundup Post Writing Service</title>
+<link rel="canonical" href="https://www.rounduppost.com/contact.html"/>
+<link rel="icon" type="image/png" href="./favicon.png"/>
+<meta name="description" content="Get in touch to discuss a roundup post package or request a custom content strategy quote."/>
+<meta name="robots" content="index, follow"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=JetBrains+Mono:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "primary-container": "#001f3f",
+          "emerald-custom": "#50C878",
+          "brand-red": "#FF4136",
+          "surface": "#f7f9ff",
+          "surface-container-low": "#edf4ff",
+          "outline-variant": "#c4c6cf"
+        },
+        fontFamily: {
+          "headline": ["Inter"],
+          "body": ["Roboto"],
+          "data": ["JetBrains Mono"]
+        }
+      }
+    }
+  }
+</script>
+<style>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  .fade-in { animation: fadeInUp 0.7s cubic-bezier(0.16,1,0.3,1) forwards; opacity: 0; }
+  @keyframes fadeInUp { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:none; } }
+</style>
+</head>
+<body class="bg-surface font-body text-on-background selection:bg-emerald-custom selection:text-white" style="--tw-bg-opacity:1;background-color:#f7f9ff;">
+
+<!-- Nav -->
+<nav class="bg-[#001F3F] sticky top-0 z-50 flex justify-between items-center w-full px-8 py-3 shadow-lg">
+  <a href="/" class="h-12 flex items-center">
+    <img src="./rounduppost_primary_logo_dark.svg" alt="RoundupPost — Roundup Post Writing Service" class="h-12 w-auto">
+  </a>
+  <div class="hidden md:flex items-center gap-8">
+    <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/#packages">Packages</a>
+    <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/">Benefits</a>
+    <a class="font-headline font-bold tracking-tighter uppercase text-sm text-white/80 hover:text-emerald-custom transition-colors duration-300" href="/">Case Studies</a>
+  </div>
+  <a href="/contact.html" class="bg-emerald-custom text-white px-6 py-2.5 font-headline font-bold uppercase text-xs tracking-tighter hover:bg-[#FF4136] transition-colors duration-300">Get Started</a>
+</nav>
+
+<!-- Header -->
+<section class="bg-primary-container pt-24 pb-20 px-8">
+  <div class="max-w-4xl mx-auto fade-in">
+    <div class="inline-block bg-emerald-custom/10 text-emerald-custom border border-emerald-custom/20 px-3 py-1 mb-6 font-data text-xs uppercase tracking-widest">Start Your Project</div>
+    <h1 class="text-white font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase leading-tight mb-6">Let's Build Your <span class="text-emerald-custom">Roundup Strategy</span></h1>
+    <p class="text-white/60 text-lg max-w-xl leading-relaxed">Select a package below and tell us about your business. We'll follow up within one business day.</p>
+  </div>
+</section>
+
+<!-- Form Section -->
+<section class="py-24 px-8 bg-surface">
+  <div class="max-w-4xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-16">
+
+      <!-- Form -->
+      <div class="md:col-span-2 fade-in" style="animation-delay:0.1s">
+        <!-- Web3Forms action — free, no backend required -->
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-8">
+          <!-- Web3Forms access key — replace with your own from web3forms.com -->
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY_HERE"/>
+          <input type="hidden" name="subject" value="New RoundupPost Enquiry"/>
+          <input type="hidden" name="redirect" value="https://www.rounduppost.com/thank-you.html"/>
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none"/>
+
+          <!-- Package -->
+          <div>
+            <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="package">Package interested in</label>
+            <select id="package" name="package" required
+              class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-data text-sm focus:border-emerald-custom focus:outline-none transition-colors">
+              <option value="">— Select a package —</option>
+              <option value="Get Started (2 Roundups)">Get Started — 2 Roundup Posts</option>
+              <option value="Grow (5 Roundups)">Grow — 5 Roundup Posts</option>
+              <option value="Accelerate (8 Roundups)">Accelerate — 8 Roundup Posts</option>
+              <option value="Custom Plan">Custom Plan / Get a Quote</option>
+            </select>
+          </div>
+
+          <!-- Name -->
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="first-name">First name</label>
+              <input type="text" id="first-name" name="first_name" required placeholder="Stuart"
+                class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-body text-sm focus:border-emerald-custom focus:outline-none transition-colors"/>
+            </div>
+            <div>
+              <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="last-name">Last name</label>
+              <input type="text" id="last-name" name="last_name" required placeholder="Marsden"
+                class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-body text-sm focus:border-emerald-custom focus:outline-none transition-colors"/>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="hello@yourbrand.com"
+              class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-body text-sm focus:border-emerald-custom focus:outline-none transition-colors"/>
+          </div>
+
+          <!-- Website -->
+          <div>
+            <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="website">Your website (optional)</label>
+            <input type="url" id="website" name="website" placeholder="https://yourbrand.com"
+              class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-body text-sm focus:border-emerald-custom focus:outline-none transition-colors"/>
+          </div>
+
+          <!-- Message -->
+          <div>
+            <label class="block font-headline font-bold uppercase text-xs tracking-widest mb-3" for="message">Tell us about your goals</label>
+            <textarea id="message" name="message" rows="6" required
+              placeholder="E.g. We sell B2B SaaS tools and want to rank for 'best project management software' queries..."
+              class="w-full border-2 border-outline-variant bg-white px-5 py-4 font-body text-sm focus:border-emerald-custom focus:outline-none transition-colors resize-none"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit"
+            class="w-full bg-emerald-custom text-white py-5 font-headline font-black uppercase text-sm tracking-widest hover:bg-[#FF4136] transition-colors duration-300 shadow-xl">
+            Send Enquiry →
+          </button>
+          <p class="font-data text-[11px] text-center opacity-40 uppercase tracking-widest">We respond within 1 business day</p>
+        </form>
+      </div>
+
+      <!-- Sidebar info -->
+      <div class="space-y-10 fade-in" style="animation-delay:0.2s">
+        <div>
+          <div class="font-data text-emerald-custom text-xs uppercase tracking-widest mb-3">What happens next</div>
+          <ul class="space-y-5">
+            <li class="flex items-start gap-3 text-sm">
+              <span class="font-data text-emerald-custom font-bold">01</span>
+              <span>We review your enquiry and research your niche</span>
+            </li>
+            <li class="flex items-start gap-3 text-sm">
+              <span class="font-data text-emerald-custom font-bold">02</span>
+              <span>We send a proposed keyword and content strategy</span>
+            </li>
+            <li class="flex items-start gap-3 text-sm">
+              <span class="font-data text-emerald-custom font-bold">03</span>
+              <span>You approve and we start writing your roundup posts</span>
+            </li>
+          </ul>
+        </div>
+        <div class="border-t border-outline-variant pt-8">
+          <div class="font-data text-emerald-custom text-xs uppercase tracking-widest mb-3">Direct contact</div>
+          <a href="mailto:hello@rounduppost.com" class="font-data text-sm hover:text-emerald-custom transition-colors">hello@rounduppost.com</a>
+        </div>
+        <!-- Package summary cards -->
+        <div class="bg-surface-container-low p-6 border border-outline-variant/20">
+          <div class="font-data text-[11px] uppercase tracking-widest opacity-50 mb-4">Quick reference</div>
+          <div class="space-y-3 text-sm">
+            <div class="flex justify-between"><span class="font-bold uppercase text-xs">Get Started</span><span class="font-data text-emerald-custom">2 posts</span></div>
+            <div class="flex justify-between"><span class="font-bold uppercase text-xs">Grow</span><span class="font-data text-emerald-custom">5 posts</span></div>
+            <div class="flex justify-between"><span class="font-bold uppercase text-xs">Accelerate</span><span class="font-data text-emerald-custom">8 posts</span></div>
+            <div class="flex justify-between"><span class="font-bold uppercase text-xs">Custom</span><span class="font-data text-emerald-custom">Bespoke</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#001F3F] text-white py-10 px-8">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+    <img src="./rounduppost_primary_logo_dark.svg" alt="RoundupPost" class="h-10 w-auto">
+    <span class="font-data text-[11px] tracking-widest uppercase text-white/30">© 2026 ROUNDUPPOST CONTENT SYSTEMS</span>
+    <a href="/" class="font-data text-[11px] tracking-widest uppercase text-white/40 hover:text-emerald-custom transition-colors">← Back to Home</a>
+  </div>
+</footer>
+
+<script>
+  // Pre-select package from URL query param
+  (function() {
+    var params = new URLSearchParams(window.location.search);
+    var pkg = params.get('package');
+    if (!pkg) return;
+    var map = {
+      'get-started': 'Get Started (2 Roundups)',
+      'grow': 'Grow (5 Roundups)',
+      'accelerate': 'Accelerate (8 Roundups)',
+      'custom': 'Custom Plan'
+    };
+    var sel = document.getElementById('package');
+    if (sel && map[pkg]) sel.value = map[pkg];
+  })();
+</script>
+</body>
+</html>
