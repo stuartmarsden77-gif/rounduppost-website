@@ -6,6 +6,11 @@
       "source": "/blog/business-benefits-roundup-posts-2026.html",
       "destination": "/blog/what-is-a-roundup-post-benefits/",
       "permanent": true
+    },
+    {
+      "source": "/blog/business-benefits-roundup-posts-2026",
+      "destination": "/blog/what-is-a-roundup-post-benefits/",
+      "permanent": true
     }
   ]
 }
