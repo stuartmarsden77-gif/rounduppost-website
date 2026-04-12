@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/blog/business-benefits-roundup-posts-2026.html",
+      "destination": "/blog/what-is-a-roundup-post-benefits/",
+      "permanent": true
+    }
+  ]
+}

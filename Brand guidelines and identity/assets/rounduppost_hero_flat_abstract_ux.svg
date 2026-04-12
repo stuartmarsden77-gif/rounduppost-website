@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- Deep Navy Background -->
+  <rect x="0" y="0" width="1200" height="800" fill="#001F3F"/>
+  
+  <!-- subtle background decorative blocks (like the website reference) -->
+  <rect x="100" y="80" width="150" height="150" fill="#002D59" rx="8" />
+  <rect x="950" y="600" width="200" height="120" fill="#002D59" rx="8" />
+  <rect x="1050" y="100" width="80" height="80" fill="#50C878" opacity="0.2" rx="4" />
+  
+  <!-- Main White UI Card -->
+  <rect x="200" y="120" width="800" height="560" fill="#FFFFFF" rx="16" />
+  
+  <!-- Row 1: Top Pick Highlight -->
+  <g transform="translate(240, 160)">
+    <!-- Dividing line top -->
+    <rect x="0" y="0" width="720" height="1" fill="#E9ECEF" />
+    
+    <!-- Rank Block -->
+    <rect x="0" y="24" width="80" height="80" fill="#001F3F" rx="8" />
+    <!-- Text bar 1 -->
+    <rect x="104" y="32" width="300" height="24" fill="#001F3F" rx="4" />
+    <!-- Text bar 2 -->
+    <rect x="104" y="68" width="180" height="16" fill="#001F3F" opacity="0.6" rx="4" />
+    <!-- Winner Button/Score Tag -->
+    <rect x="580" y="32" width="140" height="48" fill="#50C878" rx="8" />
+    
+    <!-- Dividing line bottom -->
+    <rect x="0" y="128" width="720" height="1" fill="#E9ECEF" />
+  </g>
+  
+  <!-- Row 2 -->
+  <g transform="translate(240, 288)">
+    <rect x="0" y="24" width="80" height="80" fill="#001F3F" rx="8" />
+    <rect x="104" y="32" width="280" height="24" fill="#001F3F" rx="4" />
+    <rect x="104" y="68" width="150" height="16" fill="#001F3F" opacity="0.6" rx="4" />
+    <!-- Standard Score Tag -->
+    <rect x="580" y="32" width="140" height="48" fill="#E9ECEF" rx="8" />
+    <rect x="0" y="128" width="720" height="1" fill="#E9ECEF" />
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(240, 416)">
+    <rect x="0" y="24" width="80" height="80" fill="#001F3F" rx="8" />
+    <rect x="104" y="32" width="320" height="24" fill="#001F3F" rx="4" />
+    <rect x="104" y="68" width="200" height="16" fill="#001F3F" opacity="0.6" rx="4" />
+    <rect x="580" y="32" width="140" height="48" fill="#E9ECEF" rx="8" />
+    <rect x="0" y="128" width="720" height="1" fill="#E9ECEF" />
+  </g>
+
+  <!-- Row 4 -->
+  <g transform="translate(240, 544)">
+    <rect x="0" y="24" width="80" height="80" fill="#001F3F" rx="8" />
+    <rect x="104" y="32" width="260" height="24" fill="#001F3F" rx="4" />
+    <rect x="104" y="68" width="140" height="16" fill="#001F3F" opacity="0.6" rx="4" />
+    <rect x="580" y="32" width="140" height="48" fill="#E9ECEF" rx="8" />
+  </g>
+  
+</svg>

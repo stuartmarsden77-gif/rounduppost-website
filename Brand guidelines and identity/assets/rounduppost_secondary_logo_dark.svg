@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="1080" height="1080">
+  <rect x="0" y="0" width="500" height="500" fill="#001F3F"/>
+  <!-- Centered inverted pyramid icon -->
+  <g transform="translate(190, 150)">
+    <rect x="0" y="0" width="120" height="24" fill="#50C878" rx="3" />
+    <rect x="12" y="34" width="96" height="24" fill="#FFFFFF" rx="3" />
+    <rect x="24" y="68" width="72" height="24" fill="#FFFFFF" rx="3" />
+    <rect x="36" y="102" width="48" height="24" fill="#FFFFFF" rx="3" />
+  </g>
+  <text x="250" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" letter-spacing="-1.5" text-anchor="middle">RoundupPost</text>
+</svg>
